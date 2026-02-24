@@ -1,0 +1,23 @@
+{
+  "name": "llm-apps-boilerplate",
+  "version": "0.0.3",
+  "description": "MCP server boilerplate for LLM Apps — deployable on Adobe App Builder",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "deploy": "tsc && aio app deploy"
+  },
+  "dependencies": {
+    "@adobe/aio-sdk": "^6",
+    "@adobe/aio-lib-state": "^4",
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "typescript": "^5.4.0"
+  }
+}
