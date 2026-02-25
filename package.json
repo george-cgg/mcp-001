@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@adobe/aio-sdk": "^6",
-    "@adobe/aio-lib-state": "^4",
     "@modelcontextprotocol/sdk": "^1.26.0",
     "zod": "^3.24.0"
   },
