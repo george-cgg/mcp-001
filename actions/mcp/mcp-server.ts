@@ -1,6 +1,7 @@
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { z } from 'zod';
 import type { Action } from './types';
+// @ts-ignore — plain JS handler, no declaration file
 import * as helloWorld from './experiences/headless/hello-world/index';
 
 const APP_NAME = 'llm-apps';

@@ -36,6 +36,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.createMCPServer = createMCPServer;
 const mcp_js_1 = require("@modelcontextprotocol/sdk/server/mcp.js");
 const zod_1 = require("zod");
+// @ts-ignore — plain JS handler, no declaration file
 const helloWorld = __importStar(require("./experiences/headless/hello-world/index"));
 const APP_NAME = 'llm-apps';
 /**
